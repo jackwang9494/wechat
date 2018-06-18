@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{    
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "第一个小程序",
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "cumstom",
+    "backgroundColor": "#00f",
+    "backgroundTextStyle": "dark",
+    "backgroundColorTop": "#0f0",
+    "backgroundColorBotton": "#fff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar":{
+    "color": "#ff0",
+    "selectedColor": "#0ff",
+    "backgroundColor": "#000",
+    "borderStyle": "white",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text": "首页"            
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"    
+
+    }]
+  },
+  "networkTimeout":{
+     "request": 100000,
+     "downloadFile": 10000
+  },
+  "debug": true
+}
